@@ -10,7 +10,6 @@ import Disclaimer from '../components/Disclaimer';
 import AnalysisResults from '../components/AnalysisResults';
 import { useNavigate } from 'react-router-dom';
 
-const genAI = new GoogleGenerativeAI("AIzaSyASSY9fkUZY2Q9cYsCd-mTMK0sr98lPh30");
 
 const uploadToCloudinary = async (file) => {
     const formData = new FormData();
